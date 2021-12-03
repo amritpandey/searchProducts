@@ -1,0 +1,92 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fbfd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+}
+/* My personal modification starts here*/
+header {
+    text-align: center;
+    width: 100%;
+    padding: 15px 16px;
+    background-color: rgb(32, 94, 94);
+    margin-bottom: 10px;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+}
+header p {
+    font-style: italic;
+}
+header div img {
+    width: 100px;
+    height: 100px;
+}
+header div:nth-child(2) {
+    width: 95%;
+}
+main {
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex-column;
+    align-items: center;
+    justify-content: center;
+}
+.search-input {
+    text-align: center;
+    margin: 3em 0 1.5em 0;
+}
+input[type='text'] {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(226, 17, 17);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #73c5a7;
+    color: white;
+    font-size: 20px;
+}
+
+/* input[type='text']:focus {
+    background-color: lightslategrey;
+} */
+.product-display ul > li:nth-child(even) {
+    background-color: #576769;
+    padding: 0.75em;
+    color: gainsboro;
+}
+.product-display ul > li:nth-child(odd) {
+    background-color: #f0f0f0;
+    padding: 0.75em;
+}
+
+footer {
+    background-color: rgb(32, 94, 94);
+    margin-top: 5em;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-us {
+    width: 20%;
+}

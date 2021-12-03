@@ -1,0 +1,74 @@
+<head>
+    <title>HyfBay</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,800"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <header>
+        <div>
+            <img src="shop.jpg" alt="shopping-logo" />
+        </div>
+        <div>
+            <h1>Shopping made simple</h1>
+            <p>... for everyone</p>
+        </div>
+    </header>
+    <main>
+        <section class="search-input">
+            <input
+                type="text"
+                id="searchProduct"
+                placeholder="Search your product here"
+            />
+            <input
+                type="text"
+                id="searchByPrice"
+                placeholder="Set maximum price"
+            />
+            <label for="products"
+                >Sort products by:
+                <select name="products" id="product-sorting">
+                    <option value="">Select One …</option>
+                    <option value="price">Price</option>
+                    <option value="rating">Rating</option>
+                    <option value="name">Name</option>
+                </select>
+            </label>
+        </section>
+        <section class="product-display">
+            <ul id="product-display"></ul>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h3>Quick Links</h3>
+            <ul>
+                <li>FAQ</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Archives</h3>
+            <ul>
+                <li>March 2016</li>
+                <li>April 2016</li>
+                <li>May 2016</li>
+            </ul>
+        </section>
+        <section class="about-us">
+            <h3>About us</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                amritpandey@praes entium nisi eum nihil voluptates dicta quod
+                quae.
+            </p>
+        </section>
+    </footer>
+    <script src="hyfBayHelpers.js"></script>
+    <script src="main.js"></script>
+</body>
